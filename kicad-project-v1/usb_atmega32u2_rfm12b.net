@@ -1,0 +1,300 @@
+# EESchema Netlist Version 1.1 created  śro, 16 paź 2013, 21:17:52
+(
+ ( /525ED278 $noname  R3 10k {Lib=R}
+  (    1 N-000008 )
+  (    2 /VCC )
+ )
+ ( /525ED10B $noname  U2 RFM12 {Lib=RFM12}
+  (    1 ? )
+  (    2 /VCC )
+  (    3 /MOSI )
+  (    4 /SCLK )
+  (    5 /SSEL )
+  (    6 /MISO )
+  (    7 /nIRQ )
+  (    8 N-000008 )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 GND )
+ )
+ ( /525B0763 $noname  P4 CONN_6 {Lib=CONN_6}
+  (    1 /RESET )
+  (    2 /MOSI )
+  (    3 /MISO )
+  (    4 /SCLK )
+  (    5 GND )
+  (    6 /VCC )
+ )
+ ( /525A866C $noname  P3 CONN_4 {Lib=CONN_4}
+  (    1 N-000017 )
+  (    2 N-000016 )
+  (    3 N-000015 )
+  (    4 N-000025 )
+ )
+ ( /525A864F $noname  P2 CONN_1 {Lib=CONN_1}
+  (    1 N-000018 )
+ )
+ ( /5259628A $noname  K1 CONN_3 {Lib=CONN_3}
+  (    1 N-000012 )
+  (    2 N-000013 )
+  (    3 N-000014 )
+ )
+ ( /5259552D $noname  C4 1uF {Lib=C}
+  (    1 /VCC )
+  (    2 GND )
+ )
+ ( /52595538 $noname  C3 1uF {Lib=C}
+  (    1 /VCC )
+  (    2 GND )
+ )
+ ( /52595040 $noname  SW2 RESET {Lib=SW_PUSH}
+  (    1 /RESET )
+  (    2 GND )
+ )
+ ( /52594FF2 $noname  SW1 HWB {Lib=SW_PUSH}
+  (    1 GND )
+  (    2 N-000033 )
+ )
+ ( /52594EA6 $noname  P1 CONN_7 {Lib=CONN_7}
+  (    1 /VCC )
+  (    2 GND )
+  (    3 N-000002 )
+  (    4 N-000003 )
+  (    5 N-000004 )
+  (    6 N-000005 )
+  (    7 N-000033 )
+ )
+ ( /4CD7B991 $noname  X1 CRYSTAL {Lib=CRYSTAL}
+  (    1 N-000031 )
+  (    2 N-000032 )
+ )
+ ( /4CD7B964 $noname  C2 22pF {Lib=C}
+  (    1 N-000032 )
+  (    2 GND )
+ )
+ ( /4CD7B95E $noname  C1 22pF {Lib=C}
+  (    1 N-000031 )
+  (    2 GND )
+ )
+ ( /4CD71B19 $noname  C5 1uF {Lib=C}
+  (    1 N-000027 )
+  (    2 GND )
+ )
+ ( /4CD402E1 $noname  R1 22 {Lib=R}
+  (    1 N-000029 )
+  (    2 N-000028 )
+ )
+ ( /4CD402DD $noname  R2 22 {Lib=R}
+  (    1 N-000030 )
+  (    2 N-000026 )
+ )
+ ( /4CD3FD55 $noname  U3 USBCONN {Lib=USBCONN}
+  (    1 N-000027 )
+  (    2 N-000029 )
+  (    3 N-000030 )
+  (    4 GND )
+  (    5 GND )
+ )
+ ( /4CC88C50 TQFP32  U1 ATMEGA32U2 {Lib=ATMEGA32U2}
+  (    1 N-000031 )
+  (    2 N-000032 )
+  (    3 GND )
+  (    4 /VCC )
+  (    5 N-000012 )
+  (    6 N-000013 )
+  (    7 N-000014 )
+  (    8 N-000002 )
+  (    9 N-000003 )
+  (   10 /nIRQ )
+  (   11 N-000004 )
+  (   12 N-000005 )
+  (   13 N-000033 )
+  (   14 /SSEL )
+  (   15 /SCLK )
+  (   16 /MOSI )
+  (   17 /MISO )
+  (   18 ? )
+  (   19 N-000025 )
+  (   20 N-000015 )
+  (   21 N-000016 )
+  (   22 N-000017 )
+  (   23 N-000018 )
+  (   24 /RESET )
+  (   25 ? )
+  (   26 ? )
+  (   27 /VCC )
+  (   28 GND )
+  (   29 N-000026 )
+  (   30 N-000028 )
+  (   31 N-000027 )
+  (   32 /VCC )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/VCC" "VCC"
+ P4 6
+ P1 1
+ U2 2
+ R3 2
+ U1 32
+ U1 4
+ U1 27
+ C4 1
+ C3 1
+Net 2 "" ""
+ U1 8
+ P1 3
+Net 3 "" ""
+ P1 4
+ U1 9
+Net 4 "" ""
+ U1 11
+ P1 5
+Net 5 "" ""
+ U1 12
+ P1 6
+Net 7 "/SSEL" "SSEL"
+ U1 14
+ U2 5
+Net 8 "" ""
+ R3 1
+ U2 8
+Net 12 "" ""
+ U1 5
+ K1 1
+Net 13 "" ""
+ U1 6
+ K1 2
+Net 14 "" ""
+ U1 7
+ K1 3
+Net 15 "" ""
+ P3 3
+ U1 20
+Net 16 "" ""
+ U1 21
+ P3 2
+Net 17 "" ""
+ P3 1
+ U1 22
+Net 18 "" ""
+ P2 1
+ U1 23
+Net 19 "/SCLK" "SCLK"
+ P4 4
+ U2 4
+ U1 15
+Net 21 "/MOSI" "MOSI"
+ P4 2
+ U1 16
+ U2 3
+Net 23 "/MISO" "MISO"
+ U1 17
+ P4 3
+ U2 6
+Net 25 "" ""
+ U1 19
+ P3 4
+Net 26 "" ""
+ R2 2
+ U1 29
+Net 27 "" ""
+ C5 1
+ U3 1
+ U1 31
+Net 28 "" ""
+ R1 2
+ U1 30
+Net 29 "" ""
+ R1 1
+ U3 2
+Net 30 "" ""
+ R2 1
+ U3 3
+Net 31 "" ""
+ X1 1
+ U1 1
+ C1 1
+Net 32 "" ""
+ U1 2
+ X1 2
+ C2 1
+Net 33 "" ""
+ P1 7
+ SW1 2
+ U1 13
+Net 34 "/RESET" "RESET"
+ U1 24
+ SW2 1
+ P4 1
+Net 35 "GND" "GND"
+ P1 2
+ P4 5
+ SW1 1
+ U2 12
+ SW2 2
+ C4 2
+ C3 2
+ U1 3
+ C1 2
+ C5 2
+ U3 4
+ U3 5
+ C2 2
+ U1 28
+Net 36 "/nIRQ" "nIRQ"
+ U2 7
+ U1 10
+}
+#End
