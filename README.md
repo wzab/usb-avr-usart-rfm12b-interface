@@ -7,4 +7,4 @@ Please note, that even though my part of this design is published under permissi
 it uses some software libraries, which are published under other (e.g. GPL) license.
 Please check license of every component before you reuse this design (especially for commercial puposes).
 
-The PCB design is done so, that it may be manufactured as singl-sided PCB with minimal number of jumpers.
+The PCB design is done so, that it may be manufactured as single-sided PCB with minimal number of jumpers.
